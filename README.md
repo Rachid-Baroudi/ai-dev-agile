@@ -343,7 +343,7 @@ Oui. AI-Dev-Agile s'adapte à votre architecture existante. La mémoire projet a
 
 Intéressé par AI-Dev-Agile pour votre équipe ?
 
-**Email :** [contact@ai-dev-agile.com]  
+**Email :** [rachid.baroudi@agilesoftai.com]  
 **Démo :** Demandez une démonstration personnalisée
 
 ---
