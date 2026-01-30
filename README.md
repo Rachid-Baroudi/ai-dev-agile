@@ -1,355 +1,340 @@
 # 🚀 AI-Dev-Agile V4
 
-## Accélérez votre développement logiciel avec l'IA de nouvelle génération
+## Agentic Workflow for Intelligent, Reliable Software Development
+
+**From idea to production-ready code, with AI that adapts to your stack and tools.**
 
 ---
 
-## 🎯 Qu'est-ce que AI-Dev-Agile ?
+## 🎯 What is AI-Dev-Agile?
 
-**AI-Dev-Agile** est une solution d'accélération du développement logiciel qui orchestre intelligemment plusieurs agents IA spécialisés pour transformer vos spécifications en code production-ready, tout en garantissant qualité, sécurité et conformité architecturale.
+**AI-Dev-Agile** is an **agentic development workflow** that intelligently orchestrates multiple specialized AI agents to transform your business requirements into production-quality code.
 
-Contrairement aux assistants IA génériques, AI-Dev-Agile structure le développement en **étapes validées**, avec des **points de contrôle humain** et des **assertions qualité automatiques** qui éliminent les erreurs avant qu'elles n'atteignent la production.
+Unlike improvised approaches where you prompt AI without structure, which produces code that's often fragile and hard to maintain, AI-Dev-Agile structures development into **validated stages**, with **specification as the source of truth**.
 
-> *"De l'idée au code déployable, sans friction ni erreur."*
-
----
-
-## 💎 Avantages clés
-
-### 🔄 Multi-Provider IA : Liberté de choix, performance maximale
-
-Travaillez avec votre outil IA préféré sans compromis :
-
-- **Claude Code** (Anthropic)
-- **GitHub Copilot**
-- **Cursor**
-- **Codex** (OpenAI)
-- **Gemini** (Google)
-- **JetBrains AI**
-- **Windsurf**
-- **Codeium**
-
-**Bénéfice :** Aucun vendor lock-in. Changez de provider en un clic. Profitez des forces de chaque IA selon vos besoins.
+> *"From idea to deployable code, without friction or errors."*
 
 ---
 
-### 🤖 Architecture Multi-Agents Spécialisés
+## 💎 What Makes AI-Dev-Agile Unique
 
-Chaque aspect de votre développement est pris en charge par un agent expert :
+### 🔄 Total Flexibility: Your AI coding tool, Your Stack
+
+AI-Dev-Agile **adapts to your environment**, not the other way around.
+
+#### Choose Your AI coding tool
+At setup, you select your preferred AI coding tool. The workflow automatically adapts to leverage each tool's specific capabilities while maintaining the same structured process.
+
+**Supported AI coding tool:**
+- Anthropic Claude Code
+- Google Gemini
+- Cursor
+- OpenAI Codex / GPT
+- GitHub Copilot
+- Any other AI coding tool via generic interface
+
+#### Choose Your Tech Stack
+The system **automatically detects** your existing stack or lets you configure it manually. Whether your project uses:
+- Any backend language (Java, C#, Python, Node.js, Go, Rust...)
+- Any frontend framework (React, Angular, Vue, Svelte...)
+- Any mobile technology (cross-platform or native)
+- Any database
+
+AI-Dev-Agile adapts its agents and validation rules to **your specific context**.
+
+**Benefit:** One workflow, infinite configurations. No vendor lock-in.
+
+---
+
+### 🤖 Specialized Multi-Agent Architecture
+
+Rather than a generalist assistant that does everything (often poorly), AI-Dev-Agile uses a **team of specialized agents** that collaborate intelligently:
 
 | Agent | Expertise |
 |-------|-----------|
-| **Orchestrateur** | Coordination intelligente du workflow complet |
-| **Analyste Fonctionnel** | Compréhension profonde des besoins métier |
-| **Architecte Solution** | Design patterns et décisions techniques optimales |
-| **Designer UI/UX** | Interfaces utilisateur cohérentes et accessibles |
-| **Auditeur Sécurité** | Protection proactive contre les vulnérabilités |
-| **Développeur Backend** | Code serveur robuste et performant |
-| **Développeur Frontend** | Interfaces réactives et maintenables |
-| **Développeur Mobile** | Applications natives cross-platform |
+| **Orchestrator** | Workflow coordination and sequencing |
+| **Analyst** | Requirements understanding, ambiguity clarification |
+| **Architect** | Technical design, patterns, contracts |
+| **Designer** | Interfaces, user experience, accessibility |
+| **Security Auditor** | Vulnerabilities, compliance, best practices |
+| **Developers** | Implementation by technical domain |
 
-**Bénéfice :** Chaque agent maîtrise son domaine. Résultat : un code de qualité expert sur tous les aspects.
+Each agent masters its domain and applies its specialty's best practices. The orchestrator coordinates their work to ensure overall consistency.
 
----
-
-### 🛡️ Anti-Hallucination : Fiabilité garantie
-
-Les IA génératives peuvent "halluciner" — inventer des APIs inexistantes, des patterns incorrects ou du code incompatible. AI-Dev-Agile intègre **7 mécanismes de protection avancés** :
-
-| Protection | Ce qu'elle empêche |
-|------------|-------------------|
-| **Validation des entrées** | Requirements incomplets ou ambigus |
-| **Clarification proactive** | L'IA pose des questions au lieu de deviner |
-| **Cohérence architecture** | Contradictions entre composants |
-| **Complétude du code** | Fichiers oubliés ou partiellement générés |
-| **Vérification packages** | Librairies inventées ou versions incompatibles |
-| **40+ assertions qualité** | Violations architecture, sécurité, performance |
-| **Mémoire projet** | Contexte perdu entre sessions |
-
-#### Assertions automatiques : 8 catégories de contrôle
-
-Le code généré est vérifié automatiquement sur **8 dimensions** :
-
-| Catégorie | Ce qui est vérifié |
-|-----------|-------------------|
-| **Architecture** | Clean Architecture, DDD, CQRS, séparation des couches |
-| **Sécurité** | OWASP Top 10, secrets, injections, authentification |
-| **Performance** | N+1 queries, async/await, pagination, caching |
-| **Tests** | Couverture, isolation, fixtures, assertions |
-| **Qualité code** | Naming, logging, error handling, documentation |
-| **API** | REST conventions, status codes, versioning, contrats |
-| **Accessibilité** | ARIA, contraste couleurs, navigation clavier |
-| **Fonctionnel** | Edge cases, états d'erreur, états vides |
-
-> **Code rejeté automatiquement** s'il ne respecte pas les règles du projet. Auto-correction jusqu'à 5 tentatives avant escalade humaine.
-
-**Bénéfice :** Réduction drastique des erreurs. Code qui compile du premier coup. Intégration sans surprise.
+**Benefit:** Expert quality on every aspect of development.
 
 ---
 
-### 🏛️ Architecture de qualité enterprise
+### 🧠 Intelligent Context Persistence (Memory Bank)
 
-Le code généré respecte les standards les plus exigeants :
+The major problem with current AI tools: **they forget everything between sessions**. You have to repeat the same information, re-explain your architecture, re-specify your conventions.
 
-#### Domain-Driven Design (DDD)
-- Modélisation fidèle au métier
-- Bounded contexts clairement définis
-- Ubiquitous language respecté
+AI-Dev-Agile solves this with a **Memory Bank** that persists and synchronizes project context:
 
-#### Clean Architecture
-- Séparation stricte des responsabilités
-- Indépendance des frameworks
-- Testabilité maximale
+#### What the Memory Bank Retains
 
-#### Security by Design
-- Principes OWASP intégrés dès la conception
-- Validation des inputs systématique
-- Gestion sécurisée des secrets
-- Audit de sécurité automatisé
+- **Project context**: Name, phase, objectives, business constraints
+- **Architectural decisions**: Every technical choice is documented with its justification
+- **Validated tech stack**: Only approved technologies can be used
+- **Team conventions**: Styles, patterns, specific preferences
+- **Lessons learned**: Past mistakes don't repeat
+- **Project constitution**: Immutable rules that all agents respect
 
-**Bénéfice :** Code maintenable sur le long terme. Évolutivité garantie. Conformité aux audits.
+#### Concrete Benefits
 
----
+- **Instant resumption**: If you interrupt a session, work resumes exactly where it stopped
+- **Guaranteed consistency**: All agents share the same understanding of the project
+- **Accelerated onboarding**: New team members immediately benefit from accumulated context
+- **Controlled evolution**: Past decisions guide future ones
 
-### 💰 Optimisation des coûts
-
-L'utilisation intelligente des tokens IA réduit significativement vos dépenses :
-
-- **Contexte optimisé** : Seules les informations pertinentes sont transmises
-- **Mémoire persistante** : Pas de répétition des spécifications à chaque session
-- **Validation précoce** : Les erreurs sont détectées avant de générer du code inutile
-- **Prompts condensés** : Communication efficace avec l'IA
-
-**Bénéfice :** Jusqu'à 60% d'économie sur vos coûts de tokens par rapport à une utilisation non structurée.
+**Benefit:** AI becomes a real team member who knows the project history.
 
 ---
 
-### ⚡ Développement Agile sans friction
+### 🛡️ Protection Against Hallucinations
 
-Transformez votre vélocité d'équipe :
+AI tools can produce code that "looks correct" but:
+- Uses non-existent packages or incompatible versions
+- Invents APIs or methods that don't exist
+- Contradicts established architecture
+- Forgets files or generates incomplete code
 
-#### Zéro malentendu
-- Spécifications analysées et clarifiées automatiquement
-- Questions de clarification générées si ambiguïté détectée
-- Documentation synchronisée avec le code
+AI-Dev-Agile integrates **multiple protection levels**:
 
-#### Zéro erreur d'intégration
-- **Contrats API verrouillés** avant le développement (OpenAPI/Swagger)
-- Frontend et Backend développent **en parallèle sans conflits**
-- Vérification automatique : implémentation vs contrat défini
-- Tests d'intégration générés depuis les contrats
+#### Input Validation
+Before development starts, the system verifies that requirements are complete and consistent. When ambiguous, AI asks clarification questions rather than guessing.
 
-#### Traçabilité complète
-- Chaque décision architecturale documentée (ADR)
-- Historique des choix techniques
-- Leçons apprises capitalisées
+#### Consistency Verification
+Each generation is validated against:
+- The project's existing architecture
+- Conventions defined in the Memory Bank
+- Authorized dependencies and packages
+- Established patterns and styles
 
-#### Mémoire projet persistante
-- **Tech stack verrouillé** : seuls les packages approuvés sont utilisés
-- **Décisions architecturales** documentées et respectées
-- **Leçons apprises** capitalisées pour éviter les erreurs répétées
-- **Reprise automatique** : si interruption, le travail reprend exactement où il s'est arrêté
+#### Completeness Control
+The system verifies that all planned files were created and that generated code is complete, not truncated or partial.
 
-**Bénéfice :** Sprints prévisibles. Moins de bugs. Plus de valeur livrée.
+#### Automated Assertions
+Generated code passes through a set of assertions covering multiple quality dimensions. On failure, the system attempts auto-correction before escalating to human.
+
+**Benefit:** Code that compiles and integrates correctly on the first attempt.
 
 ---
 
-### 🔄 Comment ça fonctionne ?
+### 📋 Structured Development with Human Validation
 
-AI-Dev-Agile guide votre développement en **6 étapes clés** avec validation humaine :
-
-| Étape | Ce qui se passe | Votre contrôle |
-|-------|-----------------|----------------|
-| **1. Analyse** | Vos requirements sont analysés, clarifiés, risques identifiés | ✅ Vous validez |
-| **2. Architecture** | Design technique + contrats API verrouillés | ✅ Vous validez |
-| **3. Planification** | Liste des fichiers à créer, ordre d'exécution optimisé | ✅ Vous validez |
-| **4. Développement** | Backend, Frontend, Mobile générés selon le plan | 🔄 Automatique |
-| **5. Qualité** | 40+ assertions automatiques, auto-correction si échec | 🔄 Auto-correction |
-| **6. Finalisation** | Audit sécurité, documentation, PR prête à merger | ✅ Vous validez |
+AI-Dev-Agile guides development through **structured stages**, each with a human control point:
 
 ```
-┌─────────────┐     ┌─────────────┐     ┌─────────────┐
-│  1. ANALYSE │────►│ 2. DESIGN   │────►│ 3. PLANNING │
-│  Clarifier  │     │ Contrats API│     │ Fichiers    │
-│  ✅ Valider │     │ ✅ Valider  │     │ ✅ Valider  │
-└─────────────┘     └─────────────┘     └─────────────┘
-                                               │
-       ┌───────────────────────────────────────┘
-       ▼
-┌─────────────┐     ┌─────────────┐     ┌─────────────┐
-│ 4. DEVELOP  │────►│ 5. QUALITÉ  │────►│ 6. FINALIZE │
-│ Backend     │     │ Assertions  │     │ Audit sécu  │
-│ Frontend    │     │ 🔄 Auto-fix │     │ PR ready    │
-│ Mobile      │     │             │     │ ✅ Valider  │
-└─────────────┘     └─────────────┘     └─────────────┘
+┌─────────────────────────────────────────────────────────────────┐
+│                    AI-DEV-AGILE WORKFLOW                        │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│   ┌─────────┐     ┌─────────┐     ┌─────────┐     ┌─────────┐  │
+│   │ Require │────►│Technical│────►│Detailed │────►│  Code   │  │
+│   │ Analysis│     │ Design  │     │ Planning│     │Generated│  │
+│   └────┬────┘     └────┬────┘     └────┬────┘     └────┬────┘  │
+│        │               │               │               │        │
+│    ✅ You          ✅ You          ✅ You          🤖 Auto     │
+│    validate        validate        validate                     │
+│                                                                 │
+│   ┌─────────┐     ┌─────────┐                                  │
+│   │ Quality │────►│ Finali- │                                  │
+│   │ & Tests │     │ zation  │                                  │
+│   └────┬────┘     └────┬────┘                                  │
+│        │               │                                        │
+│    🤖 Auto-        ✅ You                                      │
+│    correction      validate                                     │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
-> **Vous gardez le contrôle.** L'IA propose, vous décidez à chaque étape clé. Pas de boîte noire.
+#### Key Principle: AI Proposes, You Decide
 
-**Bénéfice :** Transparence totale. Vous savez exactement ce qui est généré et pourquoi.
+- At each key stage, you see what was produced
+- You validate before moving forward
+- You can request adjustments
+- The workflow only continues if you're satisfied
 
----
-
-### 🔌 Connexion aux outils existants
-
-AI-Dev-Agile s'intègre naturellement à votre écosystème :
-
-| Catégorie | Intégrations |
-|-----------|--------------|
-| **Design** | Figma (extraction automatique des maquettes) |
-| **Versioning** | Git, GitHub, GitLab, Azure DevOps |
-| **CI/CD** | GitHub Actions, Azure Pipelines, Jenkins |
-| **Testing** | Playwright, Jest, xUnit, pytest |
-| **Sécurité** | OWASP ZAP, SonarQube, Snyk |
-| **Packages** | npm, pip, NuGet, Maven |
-
-**Bénéfice :** Pas de changement d'outils. Amélioration de vos processus existants.
+**Benefit:** Total transparency. No black box. You stay in control.
 
 ---
 
-## 📊 Résultats observés
+### 🔒 Contracts Locked Before Development
 
-| Métrique | Amélioration |
-|----------|--------------|
-| Temps de développement feature | **-40% à -60%** |
-| Bugs en production | **-70%** |
-| Temps de code review | **-50%** |
-| Conformité architecturale | **+95%** |
-| Documentation à jour | **100%** |
-| Couverture de tests | **>80%** |
+A classic problem: frontend and backend develop in parallel but with different assumptions about APIs, causing integration conflicts.
 
-*Résultats basés sur des projets pilotes internes.*
+AI-Dev-Agile solves this:
 
----
+1. **Interface contracts are defined and validated** before development starts
+2. **These contracts are locked** and serve as reference for all agents
+3. **Any deviation is detected** and automatically flagged
+4. **Integration tests** are generated from these contracts
 
-## 🎯 Pour qui ?
-
-### Équipes de développement
-- Accélérez la livraison de features
-- Maintenez une qualité constante
-- Réduisez la dette technique
-
-### Architectes logiciel
-- Garantissez le respect des patterns
-- Automatisez les contrôles d'architecture
-- Documentez les décisions
-
-### Tech Leads
-- Standardisez les pratiques d'équipe
-- Onboardez rapidement les nouveaux développeurs
-- Capitalisez les connaissances
-
-### CTOs / Directeurs techniques
-- Réduisez les coûts de développement
-- Améliorez la prévisibilité des livraisons
-- Sécurisez votre patrimoine applicatif
+**Benefit:** Frontend and backend can develop in parallel without integration conflicts.
 
 ---
 
-## 🔧 Technologies supportées
+### ⚡ Intelligent Auto-Correction
 
-### Backend
-- **.NET** (C#, ASP.NET Core, Entity Framework)
-- **Python** (FastAPI, Django, Flask)
-- **Node.js** (Express, NestJS)
+When generated code doesn't pass validations, AI-Dev-Agile doesn't stop there:
 
-### Frontend Web
-- **React** (avec TypeScript, Redux, React Query)
-- **Angular** (avec NgRx, RxJS)
-- **Vue.js**
+1. **Root cause analysis**: Precise problem identification
+2. **Correction attempt**: The responsible agent corrects automatically
+3. **Re-validation**: Verification that correction is effective
+4. **Limited iteration**: Maximum attempts to avoid infinite loops
+5. **Escalation if needed**: Human intervention requested if auto-correction fails
 
-### Mobile
-- **React Native** (cross-platform iOS/Android)
-- **Flutter** (support prévu)
-
-### Infrastructure
-- **Terraform** (Infrastructure as Code)
-- **Docker** & **Kubernetes**
-- **Azure**, **AWS**, **GCP**
+**Benefit:** Fewer manual back-and-forths. AI solves its own errors.
 
 ---
 
-## 🚀 Commencer
+## 📊 Observed Results
 
-### Prérequis
-- Un projet existant ou nouveau
-- Un compte sur un provider IA supporté
-- 15 minutes pour la configuration initiale
+| Metric | Typical Improvement |
+|--------|---------------------|
+| Development time per feature | **Significant reduction** |
+| Bugs detected before production | **Major increase** |
+| Code review time | **Notable reduction** |
+| Architectural compliance | **Very high** |
+| Up-to-date documentation | **Systematic** |
+| Test coverage | **Goals achieved** |
 
-### Installation rapide
-1. Clonez le repository dans votre projet
-2. Configurez votre provider IA préféré
-3. Lancez votre première feature
-
-### Support
-- Documentation complète incluse
-- Guides de démarrage par provider
-- Exemples de workflows
+*Results vary by project and configuration.*
 
 ---
 
-## 💡 Philosophie
+## 🎯 Who Is It For?
 
-> **"L'IA ne remplace pas le développeur, elle amplifie son expertise."**
+### Development Teams
+- Structure your AI usage
+- Maintain consistent quality
+- Capitalize knowledge
 
-AI-Dev-Agile est conçu pour :
-- **Augmenter** vos capacités, pas les remplacer
-- **Guider** vers les bonnes pratiques, pas imposer
-- **Accélérer** le travail répétitif, pas la réflexion
-- **Sécuriser** la qualité, pas brider la créativité
+### Architects and Tech Leads
+- Ensure pattern compliance
+- Standardize practices
+- Automate controls
 
----
-
-## 📈 Roadmap
-
-- ✅ Support multi-provider IA
-- ✅ Agents spécialisés full-stack
-- ✅ Anti-hallucination avancé (7 mécanismes)
-- ✅ 40+ assertions qualité automatiques
-- ✅ Intégration Figma
-- ✅ Contrats API verrouillés
-- 🔄 Support Flutter
-- 🔄 Génération de documentation API automatique
-- 📋 Plugin IDE natif
-- 📋 Dashboard de métriques projet
+### Enterprises
+- Reduce development costs
+- Improve predictability
+- Secure your application portfolio
 
 ---
 
-## ❓ FAQ
+## 🔧 Compatibility
 
-### Comment AI-Dev-Agile est différent de Copilot ou Cursor ?
+### Tech Stacks
+AI-Dev-Agile is **stack-agnostic**. The system adapts to:
+- Any major programming language
+- Any web or mobile framework
+- Any database
+- Any infrastructure (cloud or on-premise)
 
-Copilot et Cursor sont des **assistants de code** : ils complètent votre code ligne par ligne. AI-Dev-Agile est un **workflow complet** : il orchestre le développement de bout en bout, de l'analyse des requirements jusqu'au PR prêt à merger, avec des contrôles qualité automatiques.
+Configuration happens at initial setup, and the workflow automatically adjusts its agents and rules.
 
-### Est-ce que l'IA peut faire n'importe quoi dans mon code ?
+### Existing Tools
+AI-Dev-Agile integrates naturally with:
+- Your versioning tools (Git)
+- Your CI/CD pipelines
+- Your test frameworks
+- Your security tools
+- Your design tools
 
-Non. Vous validez chaque étape clé (analyse, architecture, plan). Le code généré passe ensuite par 40+ assertions automatiques. Si quelque chose ne respecte pas vos règles projet, c'est rejeté et corrigé automatiquement.
+**Benefit:** No infrastructure changes. Enhancement of your existing processes.
 
-### Qu'est-ce qui garantit que l'IA n'invente pas de packages ou d'APIs ?
+---
 
-Le **tech stack verrouillé** : seuls les packages que vous avez approuvés peuvent être utilisés. Les **contrats API** sont définis et validés avant le développement. Toute déviation est détectée et bloquée.
+## 🚀 Getting Started
 
-### Combien de temps pour configurer ?
+### What You Need
+- An existing or new project
+- An account on a supported AI coding tool
+- 15 minutes for initial configuration
 
-15 minutes pour un setup basique. Plus si vous voulez personnaliser les assertions ou le tech stack autorisé.
+### How It Works
+1. **Installation**: Add AI-Dev-Agile to your project
+2. **Configuration**: Choose your AI tool and confirm your stack
+3. **Customization**: Fill in context in the Memory Bank
+4. **Usage**: Launch your first feature
 
-### Est-ce que ça fonctionne avec mon projet existant ?
+### Support Included
+- Complete documentation
+- Guides per AI tool
+- Workflow examples
 
-Oui. AI-Dev-Agile s'adapte à votre architecture existante. La mémoire projet apprend vos patterns et conventions.
+---
+
+## 💡 Philosophy
+
+> **AI amplifies developer expertise, it doesn't replace it.**
+
+AI-Dev-Agile is designed to:
+- **Augment** your capabilities without dispossessing you
+- **Guide** toward best practices without imposing
+- **Accelerate** repetitive work, not thinking
+- **Structure** to guarantee quality
+
+---
+
+## 📈 Planned Evolutions
+
+- ✅ Specialized multi-agent architecture
+- ✅ Multi-AI tool support
+- ✅ Multi-stack flexibility
+- ✅ Persistent Memory Bank
+- ✅ Anti-hallucination protection
+- ✅ Locked interface contracts
+- ✅ Intelligent auto-correction
+- 🔄 Additional stack support
+- 🔄 Extended integrations
+- 📋 Native IDE plugin
+- 📋 Metrics dashboard
+
+---
+
+## ❓ Frequently Asked Questions
+
+### How is AI-Dev-Agile different from a classic code assistant?
+
+Classic assistants complete your code line by line. AI-Dev-Agile orchestrates a **complete workflow** with multiple specialized agents, from requirements analysis to validated and tested code. It's the difference between a tool and a process.
+
+### Can AI do anything in my project?
+
+No. You validate each key stage. Generated code passes through automated assertions. The stack is locked in the Memory Bank. Any deviation is detected and blocked.
+
+### How does the system avoid hallucinations?
+
+Multiple combined mechanisms: input validation, consistency verification with project context, authorized package control, assertions on generated code, and auto-correction when problems occur.
+
+### Can I use my preferred AI coding tool?
+
+Yes. AI-Dev-Agile supports major market AI coding tools and offers a generic interface for others. You choose at setup.
+
+### What if my stack isn't supported?
+
+The system automatically detects common stacks and allows manual configuration for others. The architecture is designed to be extensible.
+
+### How long to configure?
+
+Basic configuration: 15 minutes. Complete Memory Bank customization: varies by project complexity.
 
 ---
 
 ## 📞 Contact
 
-Intéressé par AI-Dev-Agile pour votre équipe ?
+Interested in AI-Dev-Agile for your team?
 
-**Email :** [rachid.baroudi@agilesoftai.com]  
-**Démo :** Demandez une démonstration personnalisée
-
----
-
-*AI-Dev-Agile V4.1 — Développé avec passion pour les équipes qui visent l'excellence.*
+**Email:** [rachid.baroudi@agilesoftai.com]  
+**Demo:** Request a personalized demonstration
 
 ---
 
-© 2025 AI-Dev-Agile. Tous droits réservés.
+*AI-Dev-Agile — Structured Agentic Development for teams aiming for excellence.*
+
+---
+
+**Keywords:** Agentic Development, AI Workflow, Multi-Agent System, Context Persistence, Anti-Hallucination, Enterprise AI Development
+
+© 2025 AI-Dev-Agile. All rights reserved.
